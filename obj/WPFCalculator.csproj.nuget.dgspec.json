@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jeffrey.lai\\source\\repos\\WPFCalculator\\WPFCalculator\\WPFCalculator.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jeffrey.lai\\source\\repos\\WPFCalculator\\WPFCalculator\\WPFCalculator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jeffrey.lai\\source\\repos\\WPFCalculator\\WPFCalculator\\WPFCalculator.csproj",
+        "projectName": "WPFCalculator",
+        "projectPath": "C:\\Users\\jeffrey.lai\\source\\repos\\WPFCalculator\\WPFCalculator\\WPFCalculator.csproj",
+        "packagesPath": "C:\\Users\\jeffrey.lai\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jeffrey.lai\\source\\repos\\WPFCalculator\\WPFCalculator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jeffrey.lai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\NuGetDefaults.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://proget.huddle.local/nuget/huddle": {},
+          "https://proget.huddle.local/nuget/nuget.org": {},
+          "https://proget.huddle.local/nuget/nuget.org.microsoft": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Costura.Fody": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.7.0, )"
+            },
+            "Dangl.Calculator": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "MahApps.Metro": {
+              "target": "Package",
+              "version": "[2.4.9, )"
+            },
+            "MahApps.Metro.IconPacks.Modern": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
